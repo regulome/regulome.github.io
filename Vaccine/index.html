@@ -83,7 +83,17 @@
                  display:flex;
                  flex-direction:row;
         }
-
+	.box {
+	  width:250px;
+	  padding-top:5px;
+	  border-style:solid;
+	  border-color:black;
+	  border-width:1px;
+	  padding-left:3px;
+	  padding-bottom:10px;
+	  word-wrap:break-word;
+	  border-radius:15px;
+	}
 	</style> 
 <!-- Enable below scripts for it to work in IE8 (but this breaks it in mobile devices so need conditional statement) -->
 <!--[if lt IE 9]>
@@ -94,11 +104,11 @@
  </head>
 <!--  <body style="background-color: rgb(108,123,139);"> -->
 
+<div class="container" style="background-color:white;font-family:'Adobe Garamond Pro';font-size:18px;">
 <h1 style="text-align:center;"> THE NIH-ROCKEFELLER VACCINE PROJECT </h1>
 <br> <br>
 <br> <br>
 
-<div class="container" style="background-color:white;font-family:'Adobe Garamond Pro';font-size:18px;">
      <div class="thumbnail">
        <img width=1200px height=800px src="virus.jpg" class="img-responsive" alt="Corona Virus">
     </div>
@@ -132,7 +142,7 @@
 <br><br>
 <h2 style="text-align:center;"> VOLUNTEERS NEEDED </h2>
 
-<ul>
+<ul style="font-size:30px">
   <li>MODERNA vaccinees</li>
   <li>Had had flu-like symptoms (typically chills, low grade fever, fatigue, etc) </li>
   <li>Free from blood-borne pathogens</li>
@@ -142,19 +152,39 @@
      <div class="thumbnail">
        <img width=1200px height=800px src="tube.jpg" class="img-responsive" alt="Corona Virus">
     </div>
+<br><br>
+<div id="image-row">
+     <div class="thumbnail">
+       <img src="Bcells.png" class="img-responsive" alt="Bcell population">
+    </div>
+     <div class="thumbnail">
+       <img src="Plasma.png" class="img-responsive" alt="Plasma activity">
+    </div>
+</div>
+<br><br>
+<div id="image-row">
+     <div class="thumbnail">
+       <img src="Abs.png" class="img-responsive" alt="Antibody analysis">
+    </div>
+     <div class="thumbnail">
+       <img src="Structure.png" class="img-responsive" alt="Structural analysis">
+    </div>
+</div>
 
 <div id="image-row">
      <div class="thumbnail">
-	<a href="4C.doc" target="_blank">
-            <img src="4C-Seq.jpg" class="img-responsive" alt="Rafael Casellas NIAMS 4C-Seq">
-	</a>
+       <img src="Human.png" class="img-responsive" alt="human">
     </div>
      <div class="thumbnail">
-	<a href="ChIP-seq_protocol.doc" target="_blank">
-            <img src="ChIP-Seq.jpg" class="img-responsive" alt="Rafael Casellas NIAMS ChIP-Seq">
-	</a>
+       <img src="Llama.png" class="img-responsive" alt="Llama">
     </div>
 </div>
+<br><br>
+<p class="box">
+If you live in the DC area blood will be drawn at the NIH Blood Center.<br>
+For those living in other states we will coordinate with a blood center in your area to draw and ship the blood to us.<br>
+For more information contact <a href="mailto:jenna.lieberman@nih.gov"> Jenna.Lieberman@nih.gov</a> <br>
+</p>
 
 </div> <!-- container -->  
 
